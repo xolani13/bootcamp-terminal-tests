@@ -4,7 +4,7 @@ const chalk = require("chalk");
 
 describe(chalk.bold("This test"), function(){
         it ("should be returning " + chalk.bgGreen("true"), function(){
-                assert.equal(false, From("CY"));
+                assert.equal(true, From("CY"));
         });
 });
 
